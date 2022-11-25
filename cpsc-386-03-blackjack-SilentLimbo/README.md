@@ -1,7 +1,3 @@
-![Header](../../actions/workflows/py-header.yml/badge.svg)
-![Lint](../../actions/workflows/py-lint.yml/badge.svg)
-![Format](../../actions/workflows/py-format.yml/badge.svg)
-
 # Blackjack
 
 The objectives of this exercise are:
@@ -143,25 +139,4 @@ You may be interested in learning more about the mathematics of Blackjack so you
 If you want to discourage reckless gameplay, add the rule that a player must wait a period of time before their bank balance is replenished by the anonymous donor. This could mean that if four players are playing and one of the players goes bankrupt, they must wait _n_ rounds before being offered additional funds. Another possibility is to have the player forced to exit the game and wait _n_ hours or days before receiving additional funds.
 
 Write tests for your project. A small investment in writing tests will improve the quality of your work as well as teach you a very valuable skill. Python has a framework aptly named [`unittest`](https://docs.python.org/3/library/unittest.html). The documentation is very good and it is easy to get started.
-
-## Don't Forget
-
-Please remember that:
-
-* You need to put a header in every file per the [instructions](https://docs.google.com/document/d/1OgC3_82oZHpTvoemGXu84FAdnshve4BCvtwaXZEJ9FY/edit?usp=sharing) shared in Canvas.
-* You need to follow [PEP-8](https://www.python.org/dev/peps/pep-0008/); use linters and style checkers such as `pycodestyle`, `pylint`, and `black`.
-* You need to test your program. If it does not run correctly or if it unplayable then your project will receive poor marks.
-
-# Rubric
-
-This exercise is worth 10 points. There is a total of 10 points possible. Your program must not have any syntax errors before it is graded. Submissions that have a syntax error or throw an uncaught exception will be assigned a score of 0.
-* Functionality (6 points): Your submission shall be assessed for the appropriate constructs and strategies to address the exercise. A program the passes the instructor's tests completely receives full marks. A program that partially passes the instructors tests receives partial-marks. A program that fails the majority or all the tests receives no marks.
-    * A game that does not have a _computer AI_ dealer forfeits all marks.
-    * A game that is not multiplayer looses 3 points
-    * A game that does not recall a player's bank balance looses 3 points
-    * A game that is not defined in separate files using a Python package per the requirements looses 5 points.
-    * A game that does not execute with the command `./blackjack.py` looses 3 points.
-    * A project that does not have the required individual files looses 4 points.
-    * Partial implementation of the rules shall loose 1-5 points depending on the number of requirements not met.
-* Format & Readability (4 point): Your submission shall be assessed by checking whether your code passess the style and format check, as well as how well it follows the proper naming conventions, and internal documentation guidelines. Git log messages are an integral part of how readable your project is. Failure to include a header forfeits all marks. Not conforming to PEP-8 forfeits all marks.
 
