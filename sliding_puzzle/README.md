@@ -15,10 +15,3 @@ The requirements of this exercise are:
 
 _Do not add and comit your Python virtual environment directory._
 
-# Rubric
-
-This exercise is worth 5 points.
-
-* Python virtual environment requirements file (3 points): contains the required packages to run the project and can be used to recreate the virtual environment
-* slidepuzzle.py (2 points) The file was copied, added & committed, modified so that it can be executed in the virtual environment with the command `./slidepuzzle.py`.
-
